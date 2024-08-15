@@ -15,5 +15,13 @@ class Program
         Edad = Convert.ToDouble(Console.ReadLine()); // Convierte la entrada a double
         EdadMeses = Edad * 12; //Calculos matematicos
         Console.WriteLine("La edad en meses es: " + EdadMeses); //Concatenacion
+        if (Edad >= 18)
+        {
+            Console.WriteLine("Usted es Mayor de Edad");
+        }
+        else
+        {
+            Console.WriteLine("Usted es Menor de Edad");
+        }
     }
 }
